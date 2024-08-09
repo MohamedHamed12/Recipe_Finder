@@ -1,5 +1,8 @@
 # Recipe Finder
 
+![WhatsApp Image 2024-08-09 at 17 33 57_c3e1cea8](https://github.com/user-attachments/assets/1a63e1a2-fe27-4f75-baac-90710d576c48)
+
+
 Recipe Finder is a simple and intuitive web application that allows users to search for recipes by ingredients, cuisine, or meal type. Built with React and styled using Tailwind CSS, this project aims to provide a responsive and user-friendly interface for discovering new recipes.
 
 ## Table of Contents
@@ -143,6 +146,4 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 ---
 
-Feel free to customize this `README.md` based on your specific project needs!
-![WhatsApp Image 2024-08-09 at 17 33 57_c3e1cea8](https://github.com/user-attachments/assets/1a63e1a2-fe27-4f75-baac-90710d576c48)
 
