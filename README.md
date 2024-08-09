@@ -38,25 +38,23 @@ Make sure you have the following installed on your machine:
     
     bash
     
-    Copy code
+
+    ```bash
+    git clone https://github.com/MohamedHamed12/Recipe_Finder.git
+    cd recipe-finder
+    ```
     
-    `git clone https://github.com/your-username/recipe-finder.git cd recipe-finder`
-    
-2. **Install dependencies:**
+3. **Install dependencies:**
     
     Using npm:
     
-    bash
-    
-    Copy code
+
     
     `npm install`
     
     Or using yarn:
     
-    bash
     
-    Copy code
     
     `yarn install`
     
@@ -67,17 +65,12 @@ To start the development server, run:
 
 Using npm:
 
-bash
 
-Copy code
 
 `npm start`
 
 Or using yarn:
 
-bash
-
-Copy code
 
 `yarn start`
 
@@ -95,8 +88,8 @@ Here's a brief overview of the project structure:
 │   ├── assets
 │   │   └── images, icons, etc.
 │   ├── components
-│   │   ├── RecipeCard.js
-│   │   ├── SearchBar.js
+│   │   ├── RecipeItem.js
+│   │   ├── RecipeSearch.js
 │   │   └── ...
 │   ├── pages
 │   │   ├── HomePage.js
@@ -111,8 +104,7 @@ Here's a brief overview of the project structure:
 
 ```
 
-- **components/**: Contains reusable components like `RecipeCard`, `SearchBar`, etc.
-- **pages/**: Contains page components like `HomePage`, `RecipeDetailPage`, etc.
+- **components/**: Contains reusable components like `RecipeItem`, `RecipeSearch`, etc.
 - **styles/**: Contains custom Tailwind CSS styles.
 - **tailwind.config.js**: Tailwind CSS configuration file.
 
@@ -133,7 +125,6 @@ Here's a brief overview of the project structure:
 
 - **React:** JavaScript library for building user interfaces.
 - **Tailwind CSS:** Utility-first CSS framework for styling.
-- **Axios:** Promise-based HTTP client for making API requests.
 - **React Router:** Library for routing in React applications.
 
 ## Contributing
